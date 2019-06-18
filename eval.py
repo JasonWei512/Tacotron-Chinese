@@ -20,11 +20,13 @@ from synthesizer import Synthesizer
 # ]
 
 sentences = [
-  'ta1 jing3 ti4 de5 xia4 le5 chuang2 gei3 liang3 ge5 sun1 zi5 ye4 hao3 bei4 zi5 you4 na2 guo4 yi1 ba3 da4 yi3 zi5 ba3 jie3 mei4 lia3 dang3 zhu4 gang1 zou3 dao4 ke4 ting1 jiu4 bei4 ren2 lan2 yao1 bao4 zhu4 le5',
-  'wei1 xin4 zhi1 fu4 zhang1 xiao3 long2 han3 jian4 lou4 mian4 cheng1 wei1 xin4 bu4 hui4 cha2 kan4 yong4 hu4 liao2 tian1 ji4 lu4 yi4 si an4 feng4 zhi1 fu4 bao3 , ben3 wen2 lai2 zi4 teng2 xun4 ke1 ji4 .',
-  'da4 hui4 zhi3 re4 nao5 tou2 liang3 tian1 yue4 hou4 yue4 song1 kua3 zui4 zhong1 chu1 ben3 lun4 wen2 ji2 jiu4 suan4 yuan2 man3 wan2 cheng2 ren4 wu5',
-  'lian2 dui4 zhi3 liu2 xia4 yi4 ming2 zhi2 ban1 yuan2 chui1 shi4 yuan2 si4 yang3 yuan2 wei4 sheng1 yuan2 deng3 ye3 lie4 dui4 pao3 bu4 gan2 wang3 zai1 qu1',
-  'yi1 jiu3 wu3 ling2 nian2 ba1 yue4 zhong1 yang1 ren2 min2 zheng4 fu3 zheng4 wu4 yuan4 ban1 bu4 le5 bao3 zhang4 fa1 ming2 quan2 yu3 zhuan1 li4 quan2 zan4 xing2 tiao2 li4',
+  'ni3 men5 you3 yi1 ge4 hao3',
+  'quan2 shi4 jie4 pao3 dao4 shen2 me5 di4 fang1',
+  'ni3 men5 bi3 qi2 ta1 de5 xi1 fang1 ji4 zhe3 pao3 de5 hai2 kuai4',
+  'dan4 shi4 wen4 lai2 wen4 qu4 de5 wen4 ti2 dou1 tu1 sen1 po4',
+  'sang1 tai4 na2 yi4 fu5',
+  'gou3 li4 guo2 jia1 sheng1 si3 yi3',
+  'qi3 yin1 huo4 fu2 bi4 qu1 zhi1'
 ]
 
 def get_output_base_path(checkpoint_path):
